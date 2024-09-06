@@ -13,6 +13,11 @@ h2{
 
 .thumbnail{
     width : 100%;
+    height : 100%;
+    object-fit : fill;
+
+    border : solid white;
+    border-right-width : 1px;
 }
 
 #stat_bar{
