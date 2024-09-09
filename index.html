@@ -2,13 +2,10 @@
     <head>
         <link href = "style.css" rel = "stylesheet">
         <link href = "https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel = "stylesheet"/>
+        <script src = "script.js"></script>
     </head>
     <body>
         <div id = "top">
-            <script>
-                console.log("test")
-                alert("오늘 기분은 어떠신가요?")
-            </script>
             <img src = "https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" width = "150px"/>
             <input type = "search" value = "🔍검색"/>
             <div>
@@ -24,7 +21,8 @@
             </div>
             <div id = "profile_info">
                 <div id = "id">
-                    half_bottle <i class = "fas fa-cog"></i>
+                    <span>half_bottle</span> 
+                    <i class = "fas fa-cog"></i>
                 </div>
                 <button>
                     프로필 편집
@@ -33,13 +31,13 @@
         </div>
         <div>
         <p>
-            <strong>
+            <strong id = "userInfo">
                 반병현 (Byunghyun Ban)
             </strong><br/>
-            저자
+            <span id = "summary"> 저자 </span>
         </p>    
-        <p>
-            <a href="needleworm.github.io">
+        <p id = "profileDetail">
+            <a href="https://needleworm.github.io">
                 needleworm.github.io</a>
         </p>
         </div>
